@@ -138,8 +138,8 @@ const char ClocksTimings_fileid[] = "Hatari clocks_timings.c : " __DATE__ " " __
 #define ATARI_STF_CYCLES_PER_VBL_NTSC	133604				/* 508 cycles * 263 lines */
 #define ATARI_STF_CYCLES_PER_VBL_HI	112224				/* 224 cycles * 501 lines */
 
-#define ATARI_STE_PAL_MCLK		32084988			/* CPU_Freq = 8.021247 MHz */
-#define ATARI_STE_NTSC_MCLK		32215905			/* CPU_Freq = 8.05397625 MHz */
+#define ATARI_STE_PAL_MCLK		33554432			/* CPU_Freq = 8.021247 MHz */
+#define ATARI_STE_NTSC_MCLK		33554432			/* CPU_Freq = 8.05397625 MHz */
 #define ATARI_STE_EXT_OSC		8010613				/* OSC U303 */
 #define ATARI_STE_CYCLES_PER_VBL_PAL	160256				/* 512 cycles * 313 lines */
 #define ATARI_STE_CYCLES_PER_VBL_NTSC	133604				/* 508 cycles * 263 lines */
